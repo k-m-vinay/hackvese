@@ -1,0 +1,116 @@
+Date,Description,Amount,Payment_Method,Category
+2026-03-01,Groceries from BigBasket,1450,UPI,Groceries
+2026-03-02,Uber ride to college,240,UPI,Transport
+2026-03-03,Dinner at Barbeque Nation,1800,Card,Food
+2026-03-04,Electricity bill payment,2150,Net Banking,Bills & Utilities
+2026-03-05,Amazon headphones purchase,2499,Card,Shopping
+2026-03-06,Doctor consultation fee,500,Cash,Healthcare
+2026-03-07,Movie tickets PVR,650,UPI,Entertainment
+2026-03-08,College textbook semester 6,850,UPI,Education
+2026-03-09,Flight ticket to Mumbai,4500,Card,Travel
+2026-03-10,Dominos pizza with friends,620,UPI,Food
+2026-03-11,Auto rickshaw to metro,60,Cash,Transport
+2026-03-12,Water bill payment,350,UPI,Bills & Utilities
+2026-03-13,Myntra t-shirt purchase,1199,Card,Shopping
+2026-03-14,Vegetables from local market,320,Cash,Groceries
+2026-03-15,Pharmacy medicine buy,410,UPI,Healthcare
+2026-03-16,Netflix monthly subscription,649,Card,Entertainment
+2026-03-17,Bus pass renewal,400,UPI,Transport
+2026-03-18,Lunch at college canteen,120,UPI,Food
+2026-03-19,Mobile recharge Jio,299,UPI,Bills & Utilities
+2026-03-20,Stationery notebook and pens,180,Cash,Education
+2026-03-21,Weekly grocery shopping,1850,UPI,Groceries
+2026-03-22,Swiggy biryani order,380,UPI,Food
+2026-03-23,Zara jacket shopping,3490,Card,Shopping
+2026-03-24,Rapido bike ride,75,UPI,Transport
+2026-03-25,Wifi internet bill Airtel,999,Net Banking,Bills & Utilities
+2026-03-26,Gym monthly membership,1500,UPI,Healthcare
+2026-03-27,Concert music ticket,1200,UPI,Entertainment
+2026-03-28,Online Python course Udemy,499,Card,Education
+2026-03-29,Cab to airport,750,UPI,Travel
+2026-03-30,Coffee at Starbucks,350,Card,Food
+2026-04-01,Supermarket monthly grocery,2200,UPI,Groceries
+2026-04-02,Ola cab to office,310,UPI,Transport
+2026-04-03,KFC chicken bucket,750,Card,Food
+2026-04-04,Piped gas bill,680,Net Banking,Bills & Utilities
+2026-04-05,Footwear shoes Flipkart,1899,UPI,Shopping
+2026-04-06,Dental checkup clinic,800,Cash,Healthcare
+2026-04-07,IPL match ticket,1500,UPI,Entertainment
+2026-04-08,Exam fee portal,1200,Net Banking,Education
+2026-04-09,Hotel room booking Goa,3800,Card,Travel
+2026-04-10,Zomato burger lunch,290,UPI,Food
+2026-04-11,Metro smart card recharge,500,UPI,Transport
+2026-04-12,Electricity bill,1980,UPI,Bills & Utilities
+2026-04-13,Uniqlo shirt purchase,1990,Card,Shopping
+2026-04-14,Milk and eggs daily buy,210,Cash,Groceries
+2026-04-15,Health supplement protein,2400,Card,Healthcare
+2026-04-16,Prime Video subscription,299,UPI,Entertainment
+2026-04-17,Uber intercity ride,850,UPI,Transport
+2026-04-18,Dinner with family,2200,Card,Food
+2026-04-19,Broadband bill recharge,799,Net Banking,Bills & Utilities
+2026-04-20,Reference book computer science,650,UPI,Education
+2026-04-21,Zepto instant groceries,890,UPI,Groceries
+2026-04-22,McDonalds meal,420,UPI,Food
+2026-04-23,Shopping at Westside,2750,Card,Shopping
+2026-04-24,Fuel petrol filling bike,500,Cash,Transport
+2026-04-25,House maintenance charges,1500,UPI,Bills & Utilities
+2026-04-26,Blood test diagnostic lab,1100,UPI,Healthcare
+2026-04-27,Gaming zone ticket,550,UPI,Entertainment
+2026-04-28,Certification exam fee,2500,Card,Education
+2026-04-29,Train ticket IRCTC,1120,Net Banking,Travel
+2026-04-30,Ice cream parlour,220,Cash,Food
+2026-05-01,Reliance Smart grocery,2650,UPI,Groceries
+2026-05-02,Uber ride to downtown,280,UPI,Transport
+2026-05-03,Subway sandwich,320,UPI,Food
+2026-05-04,Electricity bill payment,2350,Net Banking,Bills & Utilities
+2026-05-05,Smartwatch purchase Amazon,3999,Card,Shopping
+2026-05-06,Eye test and glasses,1850,Card,Healthcare
+2026-05-07,Bowling alley outing,800,UPI,Entertainment
+2026-05-08,Coding bootcamp subscription,1500,UPI,Education
+2026-05-09,Weekend resort trip stay,5200,Card,Travel
+2026-05-10,Pasta dinner restaurant,850,UPI,Food
+2026-05-11,Auto fare,80,Cash,Transport
+2026-05-12,DTH TV recharge,450,UPI,Bills & Utilities
+2026-05-13,Jeans purchase Levi,2800,Card,Shopping
+2026-05-14,Fruits and veggies shop,380,Cash,Groceries
+2026-05-15,Multivitamin medicine,450,UPI,Healthcare
+2026-05-16,Spotify music premium,119,UPI,Entertainment
+2026-05-17,Car fuel petrol,2500,Card,Transport
+2026-05-18,Breakfast South Indian cafe,160,UPI,Food
+2026-05-19,Mobile postpaid bill,599,Net Banking,Bills & Utilities
+2026-05-20,Notebooks and drawing sheets,240,Cash,Education
+2026-05-21,Blinkit quick groceries,1150,UPI,Groceries
+2026-05-22,Taco Bell meal,480,UPI,Food
+2026-05-23,Decathlon sports items,1650,Card,Shopping
+2026-05-24,Rapido auto ride,110,UPI,Transport
+2026-05-25,LPG cylinder cylinder bill,950,UPI,Bills & Utilities
+2026-05-26,Physiotherapy session,700,Cash,Healthcare
+2026-05-27,Theme park ticket,1400,UPI,Entertainment
+2026-05-28,Skillshare annual pass,2200,Card,Education
+2026-05-29,Outstation bus ticket,980,UPI,Travel
+2026-05-30,Bakery cake and snacks,450,UPI,Food
+2026-06-01,Nature Basket organic groceries,1950,UPI,Groceries
+2026-06-02,Ola cab to railway station,340,UPI,Transport
+2026-06-03,Fine dining restaurant dinner,2400,Card,Food
+2026-06-04,Electricity bill summer,2890,Net Banking,Bills & Utilities
+2026-06-05,Laptop sleeve bag,899,UPI,Shopping
+2026-06-06,General physician visit,600,Cash,Healthcare
+2026-06-07,Theater play tickets,900,UPI,Entertainment
+2026-06-08,University library fine and books,350,UPI,Education
+2026-06-09,Flight back home,4200,Card,Travel
+2026-06-10,Chai and snacks evening,120,Cash,Food
+2026-06-11,Metro monthly pass,900,UPI,Transport
+2026-06-12,Water supply bill,400,UPI,Bills & Utilities
+2026-06-13,Sunglasses RayBan,3200,Card,Shopping
+2026-06-14,Supermarket items,1420,UPI,Groceries
+2026-06-15,First aid kit supplies,310,Cash,Healthcare
+2026-06-16,Book fair entry & novels,550,Cash,Education
+2026-06-17,Cab ride to doctor,230,UPI,Transport
+2026-06-18,Biryani party at house,1650,UPI,Food
+2026-06-19,Airtel broadband fiber bill,999,Net Banking,Bills & Utilities
+2026-06-20,Zara perfume purchase,2200,Card,Shopping
+2026-06-21,More Supermarket shopping,1780,UPI,Groceries
+2026-06-22,Movie tickets IMAX popcorn,950,UPI,Entertainment
+2026-06-23,Hill station road trip petrol,3500,Card,Travel
+2026-06-24,Doctor follow up consultation,400,Cash,Healthcare
+2026-06-25,Tiffin service monthly charge,3200,UPI,Food

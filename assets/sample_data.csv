@@ -1,0 +1,17 @@
+Date,Description,Amount,Payment_Method,Category
+2026-08-01,Groceries from BigBasket,1200,UPI,Groceries
+2026-08-02,Uber ride to office,250,UPI,Transport
+2026-08-03,Netflix subscription,649,Card,Entertainment
+2026-08-04,Restaurant dinner,800,UPI,Food
+2026-08-05,Electricity bill,2100,Net Banking,Bills & Utilities
+2026-08-06,Amazon online shopping,1500,Card,Shopping
+2026-08-07,Pharmacy medical purchase,450,UPI,Healthcare
+2026-08-08,College tuition fee,3500,Net Banking,Education
+2026-08-09,Flight ticket to Delhi,5200,Card,Travel
+2026-08-10,Dominos pizza lunch,450,UPI,Food
+2026-08-10,Dominos pizza lunch,450,UPI,Food
+2026-08-11,Auto fare to station,90,,Transport
+2026-08-12,Water bill payment,300,UPI,Bills & Utilities
+2026-08-13,T-shirt purchase Myntra,999,Card,
+2026-08-14,Local market vegetables,250,Cash,Groceries
+2026-08-15,Doctor consultation fee,600,Cash,Healthcare
