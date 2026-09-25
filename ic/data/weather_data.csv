@@ -1,0 +1,481 @@
+date,market_name,temperature,humidity,rainfall_mm,condition
+2026-08-25,Bangalore (Yeshwanthpur),36.2,70.5,41.8,Heavy Rain
+2026-08-25,Hubli,20.3,43.9,0.0,Clear
+2026-08-25,Mysore,34.0,56.9,0.0,Cloudy
+2026-08-25,Belgaum,27.5,45.5,42.1,Heavy Rain
+2026-08-25,Davangere,25.3,85.2,0.0,Cloudy
+2026-08-25,Shimoga,23.3,61.5,46.9,Light Rain
+2026-08-25,Tumkur,29.6,68.6,0.0,Clear
+2026-08-25,Hassan,34.0,52.4,0.0,Partly Cloudy
+2026-08-25,Mangalore,24.1,89.2,40.1,Light Rain
+2026-08-25,Raichur,26.4,48.9,28.8,Heavy Rain
+2026-08-25,Gulbarga,37.7,47.4,18.9,Light Rain
+2026-08-25,Bellary,31.5,86.1,0.0,Partly Cloudy
+2026-08-25,Bijapur,36.5,65.3,38.9,Heavy Rain
+2026-08-25,Dharwad,25.9,57.7,0.0,Cloudy
+2026-08-25,Karwar,31.7,45.3,26.0,Heavy Rain
+2026-08-26,Bangalore (Yeshwanthpur),24.4,69.6,44.4,Light Rain
+2026-08-26,Hubli,21.0,65.9,0.0,Clear
+2026-08-26,Mysore,27.7,83.8,19.4,Light Rain
+2026-08-26,Belgaum,29.1,40.5,0.0,Clear
+2026-08-26,Davangere,36.7,78.0,0.0,Clear
+2026-08-26,Shimoga,37.8,59.0,0.0,Cloudy
+2026-08-26,Tumkur,20.9,48.6,0.0,Partly Cloudy
+2026-08-26,Hassan,21.5,78.1,2.5,Light Rain
+2026-08-26,Mangalore,30.9,82.5,0.0,Partly Cloudy
+2026-08-26,Raichur,26.2,46.2,30.9,Light Rain
+2026-08-26,Gulbarga,34.2,42.9,0.0,Cloudy
+2026-08-26,Bellary,24.1,57.3,0.0,Cloudy
+2026-08-26,Bijapur,23.7,40.8,22.2,Heavy Rain
+2026-08-26,Dharwad,36.7,61.4,0.0,Partly Cloudy
+2026-08-26,Karwar,34.2,83.7,41.8,Heavy Rain
+2026-08-27,Bangalore (Yeshwanthpur),23.5,55.4,0.0,Cloudy
+2026-08-27,Hubli,27.5,85.1,16.8,Light Rain
+2026-08-27,Mysore,32.1,41.7,28.9,Light Rain
+2026-08-27,Belgaum,34.3,55.6,47.4,Light Rain
+2026-08-27,Davangere,21.7,69.0,0.0,Partly Cloudy
+2026-08-27,Shimoga,22.8,60.0,49.2,Heavy Rain
+2026-08-27,Tumkur,28.5,72.6,0.0,Cloudy
+2026-08-27,Hassan,24.3,45.8,0.0,Partly Cloudy
+2026-08-27,Mangalore,27.7,41.8,28.3,Light Rain
+2026-08-27,Raichur,37.7,82.1,46.6,Light Rain
+2026-08-27,Gulbarga,21.3,76.0,37.4,Heavy Rain
+2026-08-27,Bellary,20.2,86.2,0.0,Cloudy
+2026-08-27,Bijapur,28.0,77.4,0.0,Cloudy
+2026-08-27,Dharwad,37.6,74.2,35.6,Light Rain
+2026-08-27,Karwar,28.6,59.2,0.0,Partly Cloudy
+2026-08-28,Bangalore (Yeshwanthpur),24.9,85.3,0.0,Clear
+2026-08-28,Hubli,25.5,82.4,0.0,Partly Cloudy
+2026-08-28,Mysore,23.8,53.9,32.0,Light Rain
+2026-08-28,Belgaum,24.3,54.5,0.0,Partly Cloudy
+2026-08-28,Davangere,33.7,40.5,0.0,Partly Cloudy
+2026-08-28,Shimoga,20.9,46.5,6.0,Light Rain
+2026-08-28,Tumkur,33.0,54.9,17.2,Heavy Rain
+2026-08-28,Hassan,27.0,69.2,0.0,Cloudy
+2026-08-28,Mangalore,33.4,74.7,0.0,Cloudy
+2026-08-28,Raichur,37.6,64.2,0.0,Partly Cloudy
+2026-08-28,Gulbarga,33.6,45.5,0.0,Partly Cloudy
+2026-08-28,Bellary,35.6,49.7,0.0,Clear
+2026-08-28,Bijapur,28.1,60.1,0.0,Clear
+2026-08-28,Dharwad,27.0,52.9,0.0,Partly Cloudy
+2026-08-28,Karwar,24.5,75.7,23.8,Light Rain
+2026-08-29,Bangalore (Yeshwanthpur),34.0,55.9,0.0,Clear
+2026-08-29,Hubli,24.7,86.5,0.0,Clear
+2026-08-29,Mysore,32.1,80.0,25.6,Light Rain
+2026-08-29,Belgaum,20.5,51.2,0.0,Partly Cloudy
+2026-08-29,Davangere,24.7,64.2,0.0,Cloudy
+2026-08-29,Shimoga,29.6,81.3,27.1,Light Rain
+2026-08-29,Tumkur,20.6,52.4,0.0,Partly Cloudy
+2026-08-29,Hassan,23.8,60.9,0.0,Cloudy
+2026-08-29,Mangalore,37.7,43.4,0.0,Partly Cloudy
+2026-08-29,Raichur,31.3,84.2,0.0,Cloudy
+2026-08-29,Gulbarga,36.5,66.0,10.8,Heavy Rain
+2026-08-29,Bellary,36.6,85.0,14.6,Heavy Rain
+2026-08-29,Bijapur,27.8,45.3,17.2,Light Rain
+2026-08-29,Dharwad,23.1,49.8,0.0,Cloudy
+2026-08-29,Karwar,30.2,42.6,0.0,Partly Cloudy
+2026-08-30,Bangalore (Yeshwanthpur),32.7,58.8,0.0,Clear
+2026-08-30,Hubli,28.1,86.7,0.0,Clear
+2026-08-30,Mysore,32.9,55.1,0.0,Partly Cloudy
+2026-08-30,Belgaum,34.4,67.9,0.0,Clear
+2026-08-30,Davangere,37.8,74.1,0.0,Partly Cloudy
+2026-08-30,Shimoga,25.4,61.2,0.0,Cloudy
+2026-08-30,Tumkur,29.6,77.6,0.0,Cloudy
+2026-08-30,Hassan,25.7,44.5,0.0,Partly Cloudy
+2026-08-30,Mangalore,20.8,40.2,44.5,Light Rain
+2026-08-30,Raichur,31.1,61.8,41.3,Light Rain
+2026-08-30,Gulbarga,30.9,57.9,0.0,Partly Cloudy
+2026-08-30,Bellary,34.8,47.9,26.2,Light Rain
+2026-08-30,Bijapur,23.1,68.6,24.6,Light Rain
+2026-08-30,Dharwad,36.5,48.5,3.8,Heavy Rain
+2026-08-30,Karwar,21.9,85.4,0.0,Cloudy
+2026-08-31,Bangalore (Yeshwanthpur),26.0,54.9,0.0,Clear
+2026-08-31,Hubli,24.6,86.9,0.0,Cloudy
+2026-08-31,Mysore,37.5,53.7,5.3,Light Rain
+2026-08-31,Belgaum,35.9,88.0,7.2,Heavy Rain
+2026-08-31,Davangere,24.6,79.9,36.5,Light Rain
+2026-08-31,Shimoga,37.9,88.3,47.2,Light Rain
+2026-08-31,Tumkur,34.3,42.0,11.7,Heavy Rain
+2026-08-31,Hassan,25.0,61.9,0.0,Clear
+2026-08-31,Mangalore,20.7,70.0,2.0,Light Rain
+2026-08-31,Raichur,30.3,49.2,0.0,Partly Cloudy
+2026-08-31,Gulbarga,28.7,54.1,33.4,Light Rain
+2026-08-31,Bellary,25.1,47.5,0.0,Partly Cloudy
+2026-08-31,Bijapur,30.0,69.7,0.0,Clear
+2026-08-31,Dharwad,33.5,76.6,0.0,Clear
+2026-08-31,Karwar,28.6,51.3,0.0,Cloudy
+2026-09-01,Bangalore (Yeshwanthpur),33.2,72.6,27.7,Heavy Rain
+2026-09-01,Hubli,21.0,50.8,18.8,Light Rain
+2026-09-01,Mysore,35.1,63.4,0.0,Clear
+2026-09-01,Belgaum,22.5,53.3,0.0,Cloudy
+2026-09-01,Davangere,25.6,53.3,25.8,Heavy Rain
+2026-09-01,Shimoga,26.9,54.9,18.7,Light Rain
+2026-09-01,Tumkur,20.3,69.0,22.0,Light Rain
+2026-09-01,Hassan,23.4,83.8,0.0,Clear
+2026-09-01,Mangalore,23.3,60.5,2.5,Heavy Rain
+2026-09-01,Raichur,26.1,48.0,0.0,Partly Cloudy
+2026-09-01,Gulbarga,21.3,61.6,0.0,Partly Cloudy
+2026-09-01,Bellary,33.7,77.9,0.0,Clear
+2026-09-01,Bijapur,21.3,54.7,10.9,Heavy Rain
+2026-09-01,Dharwad,35.3,41.3,0.0,Partly Cloudy
+2026-09-01,Karwar,30.7,74.3,0.0,Cloudy
+2026-09-02,Bangalore (Yeshwanthpur),25.7,61.7,41.1,Heavy Rain
+2026-09-02,Hubli,30.3,85.4,0.0,Clear
+2026-09-02,Mysore,37.2,52.3,20.1,Light Rain
+2026-09-02,Belgaum,35.0,67.4,25.2,Light Rain
+2026-09-02,Davangere,24.5,83.5,0.0,Cloudy
+2026-09-02,Shimoga,28.8,89.3,0.0,Clear
+2026-09-02,Tumkur,33.4,83.4,0.0,Cloudy
+2026-09-02,Hassan,21.2,50.4,0.0,Cloudy
+2026-09-02,Mangalore,37.6,86.4,0.0,Clear
+2026-09-02,Raichur,26.4,71.3,0.0,Cloudy
+2026-09-02,Gulbarga,34.8,83.8,0.0,Clear
+2026-09-02,Bellary,36.8,43.8,11.3,Light Rain
+2026-09-02,Bijapur,27.6,53.2,0.0,Cloudy
+2026-09-02,Dharwad,28.9,54.1,24.4,Heavy Rain
+2026-09-02,Karwar,32.3,52.2,0.0,Clear
+2026-09-03,Bangalore (Yeshwanthpur),35.0,76.1,0.0,Cloudy
+2026-09-03,Hubli,37.9,44.6,0.0,Clear
+2026-09-03,Mysore,33.7,62.9,33.2,Heavy Rain
+2026-09-03,Belgaum,21.1,77.7,0.0,Cloudy
+2026-09-03,Davangere,36.4,49.5,0.0,Clear
+2026-09-03,Shimoga,30.6,69.5,22.7,Heavy Rain
+2026-09-03,Tumkur,37.8,40.7,0.0,Partly Cloudy
+2026-09-03,Hassan,28.2,76.2,0.0,Cloudy
+2026-09-03,Mangalore,24.3,88.0,0.0,Partly Cloudy
+2026-09-03,Raichur,28.5,65.9,0.0,Clear
+2026-09-03,Gulbarga,34.3,42.7,0.0,Cloudy
+2026-09-03,Bellary,29.8,50.5,0.0,Clear
+2026-09-03,Bijapur,20.6,49.9,4.7,Light Rain
+2026-09-03,Dharwad,23.1,81.3,16.3,Light Rain
+2026-09-03,Karwar,23.6,45.6,0.0,Cloudy
+2026-09-04,Bangalore (Yeshwanthpur),21.8,52.7,0.0,Clear
+2026-09-04,Hubli,21.1,86.3,0.0,Clear
+2026-09-04,Mysore,21.3,67.0,44.9,Light Rain
+2026-09-04,Belgaum,33.9,73.0,0.0,Partly Cloudy
+2026-09-04,Davangere,21.6,46.1,10.1,Heavy Rain
+2026-09-04,Shimoga,24.6,43.3,18.6,Light Rain
+2026-09-04,Tumkur,23.9,83.6,44.3,Heavy Rain
+2026-09-04,Hassan,24.3,45.5,0.0,Clear
+2026-09-04,Mangalore,33.6,56.2,0.0,Clear
+2026-09-04,Raichur,21.5,63.6,0.0,Cloudy
+2026-09-04,Gulbarga,23.1,87.6,0.0,Cloudy
+2026-09-04,Bellary,34.8,41.9,10.6,Light Rain
+2026-09-04,Bijapur,31.6,46.6,0.0,Partly Cloudy
+2026-09-04,Dharwad,32.6,41.8,0.0,Cloudy
+2026-09-04,Karwar,34.2,49.4,0.0,Clear
+2026-09-05,Bangalore (Yeshwanthpur),30.5,75.6,49.0,Heavy Rain
+2026-09-05,Hubli,29.5,72.7,0.0,Cloudy
+2026-09-05,Mysore,35.8,51.7,0.0,Clear
+2026-09-05,Belgaum,35.0,62.9,0.0,Cloudy
+2026-09-05,Davangere,24.6,58.1,0.0,Clear
+2026-09-05,Shimoga,24.3,71.0,26.6,Light Rain
+2026-09-05,Tumkur,36.9,65.2,0.0,Partly Cloudy
+2026-09-05,Hassan,28.2,75.1,0.0,Partly Cloudy
+2026-09-05,Mangalore,27.4,63.5,36.0,Light Rain
+2026-09-05,Raichur,24.6,55.2,0.0,Clear
+2026-09-05,Gulbarga,31.9,63.7,44.0,Light Rain
+2026-09-05,Bellary,23.6,71.7,0.0,Partly Cloudy
+2026-09-05,Bijapur,26.9,86.0,21.1,Light Rain
+2026-09-05,Dharwad,34.9,63.6,0.0,Cloudy
+2026-09-05,Karwar,32.8,56.2,0.0,Cloudy
+2026-09-06,Bangalore (Yeshwanthpur),34.0,87.7,0.0,Cloudy
+2026-09-06,Hubli,29.8,75.3,0.0,Partly Cloudy
+2026-09-06,Mysore,22.5,65.0,33.7,Heavy Rain
+2026-09-06,Belgaum,29.7,69.6,0.0,Cloudy
+2026-09-06,Davangere,34.5,57.9,9.6,Heavy Rain
+2026-09-06,Shimoga,20.6,78.6,0.0,Clear
+2026-09-06,Tumkur,35.6,44.5,35.7,Heavy Rain
+2026-09-06,Hassan,27.5,71.8,48.2,Light Rain
+2026-09-06,Mangalore,30.2,69.7,0.0,Clear
+2026-09-06,Raichur,35.5,55.1,7.1,Heavy Rain
+2026-09-06,Gulbarga,33.1,45.5,6.7,Heavy Rain
+2026-09-06,Bellary,35.8,47.2,0.0,Partly Cloudy
+2026-09-06,Bijapur,35.9,62.2,30.9,Heavy Rain
+2026-09-06,Dharwad,27.1,76.3,0.0,Clear
+2026-09-06,Karwar,26.6,87.1,0.0,Cloudy
+2026-09-07,Bangalore (Yeshwanthpur),30.1,63.7,0.0,Cloudy
+2026-09-07,Hubli,20.1,80.2,0.0,Partly Cloudy
+2026-09-07,Mysore,35.8,89.4,0.0,Partly Cloudy
+2026-09-07,Belgaum,34.6,69.7,22.3,Light Rain
+2026-09-07,Davangere,24.9,47.4,13.2,Heavy Rain
+2026-09-07,Shimoga,37.5,44.2,36.3,Light Rain
+2026-09-07,Tumkur,28.2,61.6,42.8,Light Rain
+2026-09-07,Hassan,34.1,43.1,2.8,Heavy Rain
+2026-09-07,Mangalore,21.3,48.5,45.1,Light Rain
+2026-09-07,Raichur,35.3,41.8,0.0,Clear
+2026-09-07,Gulbarga,30.0,67.1,15.6,Heavy Rain
+2026-09-07,Bellary,35.5,57.1,0.0,Clear
+2026-09-07,Bijapur,31.4,88.8,26.4,Heavy Rain
+2026-09-07,Dharwad,36.5,69.1,13.8,Light Rain
+2026-09-07,Karwar,28.3,75.8,0.0,Partly Cloudy
+2026-09-08,Bangalore (Yeshwanthpur),31.4,59.8,49.6,Light Rain
+2026-09-08,Hubli,34.9,87.4,9.6,Heavy Rain
+2026-09-08,Mysore,32.0,64.8,0.0,Cloudy
+2026-09-08,Belgaum,37.3,45.3,6.6,Heavy Rain
+2026-09-08,Davangere,36.3,88.6,41.5,Heavy Rain
+2026-09-08,Shimoga,31.2,55.5,42.3,Light Rain
+2026-09-08,Tumkur,28.3,82.9,0.0,Cloudy
+2026-09-08,Hassan,33.6,48.3,31.5,Heavy Rain
+2026-09-08,Mangalore,20.8,40.7,0.0,Partly Cloudy
+2026-09-08,Raichur,32.8,63.3,8.3,Heavy Rain
+2026-09-08,Gulbarga,22.8,57.0,3.9,Light Rain
+2026-09-08,Bellary,28.9,74.6,0.0,Clear
+2026-09-08,Bijapur,36.9,52.2,0.0,Partly Cloudy
+2026-09-08,Dharwad,23.1,79.3,0.0,Clear
+2026-09-08,Karwar,35.0,81.0,16.1,Heavy Rain
+2026-09-09,Bangalore (Yeshwanthpur),20.6,78.5,44.4,Heavy Rain
+2026-09-09,Hubli,24.4,85.9,0.0,Clear
+2026-09-09,Mysore,30.4,73.9,0.0,Cloudy
+2026-09-09,Belgaum,22.5,40.0,0.0,Cloudy
+2026-09-09,Davangere,35.3,49.1,0.0,Clear
+2026-09-09,Shimoga,31.3,50.1,0.0,Clear
+2026-09-09,Tumkur,26.3,82.2,0.0,Partly Cloudy
+2026-09-09,Hassan,23.1,69.6,0.0,Cloudy
+2026-09-09,Mangalore,25.5,79.9,0.0,Cloudy
+2026-09-09,Raichur,21.0,86.1,39.0,Heavy Rain
+2026-09-09,Gulbarga,29.1,71.5,25.1,Light Rain
+2026-09-09,Bellary,31.4,46.0,0.0,Clear
+2026-09-09,Bijapur,32.1,79.5,46.5,Heavy Rain
+2026-09-09,Dharwad,36.4,79.7,12.5,Heavy Rain
+2026-09-09,Karwar,37.0,66.2,10.3,Light Rain
+2026-09-10,Bangalore (Yeshwanthpur),24.0,47.9,0.0,Partly Cloudy
+2026-09-10,Hubli,35.7,82.4,0.0,Cloudy
+2026-09-10,Mysore,20.6,78.6,0.0,Partly Cloudy
+2026-09-10,Belgaum,31.7,42.7,0.0,Partly Cloudy
+2026-09-10,Davangere,22.0,67.1,0.0,Clear
+2026-09-10,Shimoga,32.3,66.8,33.8,Light Rain
+2026-09-10,Tumkur,22.6,45.3,12.7,Heavy Rain
+2026-09-10,Hassan,25.6,58.7,47.4,Light Rain
+2026-09-10,Mangalore,36.3,50.8,0.0,Cloudy
+2026-09-10,Raichur,27.1,74.2,0.0,Cloudy
+2026-09-10,Gulbarga,27.7,44.5,0.0,Partly Cloudy
+2026-09-10,Bellary,34.1,62.1,0.0,Cloudy
+2026-09-10,Bijapur,37.6,57.7,46.5,Light Rain
+2026-09-10,Dharwad,25.7,68.9,34.2,Light Rain
+2026-09-10,Karwar,22.2,46.2,36.2,Light Rain
+2026-09-11,Bangalore (Yeshwanthpur),35.7,78.2,28.6,Heavy Rain
+2026-09-11,Hubli,23.7,49.0,0.0,Clear
+2026-09-11,Mysore,34.3,88.8,0.0,Partly Cloudy
+2026-09-11,Belgaum,37.8,73.9,12.4,Light Rain
+2026-09-11,Davangere,31.6,83.3,0.0,Cloudy
+2026-09-11,Shimoga,32.7,82.7,0.0,Partly Cloudy
+2026-09-11,Tumkur,35.1,61.5,18.4,Light Rain
+2026-09-11,Hassan,29.1,73.1,28.7,Light Rain
+2026-09-11,Mangalore,28.1,82.4,0.0,Partly Cloudy
+2026-09-11,Raichur,37.7,66.1,4.9,Heavy Rain
+2026-09-11,Gulbarga,25.2,50.8,0.0,Clear
+2026-09-11,Bellary,23.5,62.9,32.7,Heavy Rain
+2026-09-11,Bijapur,21.3,58.5,0.0,Clear
+2026-09-11,Dharwad,27.6,44.9,0.0,Clear
+2026-09-11,Karwar,24.2,59.5,0.0,Cloudy
+2026-09-12,Bangalore (Yeshwanthpur),30.1,60.9,43.7,Light Rain
+2026-09-12,Hubli,32.2,77.1,0.0,Cloudy
+2026-09-12,Mysore,25.1,79.5,0.0,Partly Cloudy
+2026-09-12,Belgaum,24.2,84.4,0.0,Partly Cloudy
+2026-09-12,Davangere,28.8,52.5,0.0,Partly Cloudy
+2026-09-12,Shimoga,29.3,55.2,0.0,Clear
+2026-09-12,Tumkur,26.2,75.7,38.6,Heavy Rain
+2026-09-12,Hassan,35.4,81.8,0.0,Cloudy
+2026-09-12,Mangalore,29.7,82.3,0.0,Partly Cloudy
+2026-09-12,Raichur,24.8,79.4,0.0,Cloudy
+2026-09-12,Gulbarga,22.4,48.4,0.0,Clear
+2026-09-12,Bellary,37.8,64.5,0.0,Clear
+2026-09-12,Bijapur,30.8,88.8,0.0,Clear
+2026-09-12,Dharwad,24.7,69.2,18.1,Light Rain
+2026-09-12,Karwar,20.4,74.4,0.0,Partly Cloudy
+2026-09-13,Bangalore (Yeshwanthpur),36.9,58.2,0.0,Partly Cloudy
+2026-09-13,Hubli,20.5,56.7,34.1,Heavy Rain
+2026-09-13,Mysore,27.5,71.1,48.9,Light Rain
+2026-09-13,Belgaum,38.0,53.5,0.0,Partly Cloudy
+2026-09-13,Davangere,34.2,60.2,0.0,Partly Cloudy
+2026-09-13,Shimoga,36.2,63.0,0.0,Partly Cloudy
+2026-09-13,Tumkur,25.0,56.8,24.9,Light Rain
+2026-09-13,Hassan,23.0,55.1,39.3,Light Rain
+2026-09-13,Mangalore,22.2,78.9,0.0,Cloudy
+2026-09-13,Raichur,27.6,68.0,0.0,Partly Cloudy
+2026-09-13,Gulbarga,35.0,51.8,0.0,Cloudy
+2026-09-13,Bellary,35.2,71.5,44.5,Light Rain
+2026-09-13,Bijapur,35.9,86.7,48.5,Light Rain
+2026-09-13,Dharwad,20.3,56.7,0.0,Clear
+2026-09-13,Karwar,22.2,56.8,7.3,Light Rain
+2026-09-14,Bangalore (Yeshwanthpur),21.7,80.6,49.0,Heavy Rain
+2026-09-14,Hubli,20.6,80.2,0.0,Partly Cloudy
+2026-09-14,Mysore,23.4,75.5,43.8,Light Rain
+2026-09-14,Belgaum,34.1,46.4,0.0,Cloudy
+2026-09-14,Davangere,26.0,82.2,0.0,Partly Cloudy
+2026-09-14,Shimoga,21.9,57.5,29.9,Heavy Rain
+2026-09-14,Tumkur,33.0,77.5,18.1,Heavy Rain
+2026-09-14,Hassan,25.8,53.6,2.5,Heavy Rain
+2026-09-14,Mangalore,30.8,59.4,0.0,Clear
+2026-09-14,Raichur,29.9,44.7,0.0,Cloudy
+2026-09-14,Gulbarga,31.3,68.2,5.9,Light Rain
+2026-09-14,Bellary,33.7,56.7,0.0,Cloudy
+2026-09-14,Bijapur,22.8,61.7,0.0,Clear
+2026-09-14,Dharwad,36.7,56.7,0.0,Clear
+2026-09-14,Karwar,36.2,69.6,0.0,Cloudy
+2026-09-15,Bangalore (Yeshwanthpur),22.4,81.9,20.5,Heavy Rain
+2026-09-15,Hubli,28.0,40.4,0.0,Cloudy
+2026-09-15,Mysore,26.8,51.6,0.0,Clear
+2026-09-15,Belgaum,26.4,75.1,0.0,Partly Cloudy
+2026-09-15,Davangere,34.6,43.1,0.0,Clear
+2026-09-15,Shimoga,37.7,84.1,0.0,Cloudy
+2026-09-15,Tumkur,23.8,62.0,42.1,Heavy Rain
+2026-09-15,Hassan,37.8,80.8,47.1,Light Rain
+2026-09-15,Mangalore,20.9,81.9,14.7,Heavy Rain
+2026-09-15,Raichur,20.9,69.6,24.8,Heavy Rain
+2026-09-15,Gulbarga,21.6,84.3,33.3,Heavy Rain
+2026-09-15,Bellary,32.9,80.1,0.0,Partly Cloudy
+2026-09-15,Bijapur,28.6,61.7,0.0,Cloudy
+2026-09-15,Dharwad,32.4,64.2,7.1,Heavy Rain
+2026-09-15,Karwar,34.9,55.8,16.2,Heavy Rain
+2026-09-16,Bangalore (Yeshwanthpur),33.2,47.5,0.0,Cloudy
+2026-09-16,Hubli,20.1,78.8,0.0,Clear
+2026-09-16,Mysore,25.3,58.0,0.0,Cloudy
+2026-09-16,Belgaum,35.5,51.3,0.0,Cloudy
+2026-09-16,Davangere,37.4,59.0,0.0,Clear
+2026-09-16,Shimoga,21.6,64.8,12.2,Light Rain
+2026-09-16,Tumkur,21.6,60.7,49.6,Heavy Rain
+2026-09-16,Hassan,24.4,56.1,0.0,Cloudy
+2026-09-16,Mangalore,34.0,71.7,0.0,Partly Cloudy
+2026-09-16,Raichur,23.9,80.0,0.0,Partly Cloudy
+2026-09-16,Gulbarga,22.6,84.5,0.0,Partly Cloudy
+2026-09-16,Bellary,29.1,63.0,0.0,Partly Cloudy
+2026-09-16,Bijapur,27.4,71.5,33.7,Heavy Rain
+2026-09-16,Dharwad,33.1,51.3,0.0,Partly Cloudy
+2026-09-16,Karwar,30.4,53.3,32.2,Light Rain
+2026-09-17,Bangalore (Yeshwanthpur),22.2,44.4,35.8,Heavy Rain
+2026-09-17,Hubli,27.0,83.7,0.0,Partly Cloudy
+2026-09-17,Mysore,20.3,67.6,0.0,Cloudy
+2026-09-17,Belgaum,28.6,74.9,0.0,Clear
+2026-09-17,Davangere,31.6,51.1,0.0,Partly Cloudy
+2026-09-17,Shimoga,27.0,43.3,0.0,Cloudy
+2026-09-17,Tumkur,26.7,72.8,0.0,Clear
+2026-09-17,Hassan,23.1,57.6,41.8,Light Rain
+2026-09-17,Mangalore,31.0,71.5,0.0,Clear
+2026-09-17,Raichur,23.1,56.8,0.0,Clear
+2026-09-17,Gulbarga,33.6,49.9,0.0,Partly Cloudy
+2026-09-17,Bellary,31.0,41.3,0.0,Clear
+2026-09-17,Bijapur,35.2,49.8,42.5,Light Rain
+2026-09-17,Dharwad,34.1,51.2,41.7,Light Rain
+2026-09-17,Karwar,20.1,67.2,0.0,Clear
+2026-09-18,Bangalore (Yeshwanthpur),27.0,48.5,0.0,Clear
+2026-09-18,Hubli,37.8,84.9,0.0,Clear
+2026-09-18,Mysore,36.1,89.3,0.0,Partly Cloudy
+2026-09-18,Belgaum,27.4,85.7,0.0,Clear
+2026-09-18,Davangere,36.5,67.8,48.1,Heavy Rain
+2026-09-18,Shimoga,32.4,65.0,0.0,Cloudy
+2026-09-18,Tumkur,29.1,68.7,0.0,Clear
+2026-09-18,Hassan,20.5,49.7,49.6,Heavy Rain
+2026-09-18,Mangalore,34.2,68.9,0.0,Partly Cloudy
+2026-09-18,Raichur,22.8,71.4,0.0,Cloudy
+2026-09-18,Gulbarga,22.0,77.2,12.1,Light Rain
+2026-09-18,Bellary,29.0,64.8,0.0,Partly Cloudy
+2026-09-18,Bijapur,21.3,63.0,41.6,Heavy Rain
+2026-09-18,Dharwad,34.9,52.7,0.0,Cloudy
+2026-09-18,Karwar,20.3,87.7,0.0,Cloudy
+2026-09-19,Bangalore (Yeshwanthpur),31.9,62.4,38.5,Light Rain
+2026-09-19,Hubli,28.3,44.5,0.0,Cloudy
+2026-09-19,Mysore,35.6,51.5,0.0,Cloudy
+2026-09-19,Belgaum,24.7,40.4,44.6,Light Rain
+2026-09-19,Davangere,27.2,83.9,0.0,Cloudy
+2026-09-19,Shimoga,21.7,43.3,14.5,Heavy Rain
+2026-09-19,Tumkur,23.9,81.1,11.5,Light Rain
+2026-09-19,Hassan,28.6,48.8,9.6,Light Rain
+2026-09-19,Mangalore,26.9,56.0,0.0,Partly Cloudy
+2026-09-19,Raichur,37.5,81.4,0.0,Partly Cloudy
+2026-09-19,Gulbarga,28.8,76.2,0.0,Cloudy
+2026-09-19,Bellary,20.1,63.0,0.0,Cloudy
+2026-09-19,Bijapur,30.9,64.8,0.0,Partly Cloudy
+2026-09-19,Dharwad,32.3,50.4,0.0,Cloudy
+2026-09-19,Karwar,30.7,68.4,0.0,Clear
+2026-09-20,Bangalore (Yeshwanthpur),35.7,68.0,0.0,Cloudy
+2026-09-20,Hubli,37.5,49.7,0.0,Clear
+2026-09-20,Mysore,34.8,56.7,15.4,Light Rain
+2026-09-20,Belgaum,26.9,66.9,0.0,Partly Cloudy
+2026-09-20,Davangere,36.4,87.9,0.0,Cloudy
+2026-09-20,Shimoga,26.8,87.3,9.4,Heavy Rain
+2026-09-20,Tumkur,29.9,71.5,26.5,Heavy Rain
+2026-09-20,Hassan,35.5,41.8,0.0,Partly Cloudy
+2026-09-20,Mangalore,36.4,67.9,25.6,Light Rain
+2026-09-20,Raichur,33.8,57.4,0.0,Cloudy
+2026-09-20,Gulbarga,31.7,81.5,0.0,Cloudy
+2026-09-20,Bellary,28.2,81.8,0.0,Clear
+2026-09-20,Bijapur,20.3,54.6,0.0,Partly Cloudy
+2026-09-20,Dharwad,23.6,43.2,0.0,Cloudy
+2026-09-20,Karwar,33.8,45.3,0.0,Cloudy
+2026-09-21,Bangalore (Yeshwanthpur),29.4,54.8,0.0,Cloudy
+2026-09-21,Hubli,24.6,58.9,0.0,Cloudy
+2026-09-21,Mysore,24.1,70.3,0.0,Partly Cloudy
+2026-09-21,Belgaum,29.8,47.4,0.0,Partly Cloudy
+2026-09-21,Davangere,28.3,45.2,25.1,Heavy Rain
+2026-09-21,Shimoga,34.9,50.7,0.0,Partly Cloudy
+2026-09-21,Tumkur,22.3,87.0,0.0,Cloudy
+2026-09-21,Hassan,27.8,52.5,0.0,Partly Cloudy
+2026-09-21,Mangalore,24.7,73.8,6.6,Heavy Rain
+2026-09-21,Raichur,37.1,70.6,25.1,Heavy Rain
+2026-09-21,Gulbarga,22.2,40.4,0.0,Cloudy
+2026-09-21,Bellary,36.7,81.9,23.1,Heavy Rain
+2026-09-21,Bijapur,31.9,68.6,48.5,Light Rain
+2026-09-21,Dharwad,31.2,85.3,18.3,Light Rain
+2026-09-21,Karwar,37.3,59.8,0.0,Clear
+2026-09-22,Bangalore (Yeshwanthpur),34.6,75.1,44.1,Light Rain
+2026-09-22,Hubli,30.8,54.8,0.0,Partly Cloudy
+2026-09-22,Mysore,23.1,42.4,0.0,Clear
+2026-09-22,Belgaum,25.8,81.3,0.0,Partly Cloudy
+2026-09-22,Davangere,33.7,53.9,0.0,Cloudy
+2026-09-22,Shimoga,26.9,40.3,10.6,Heavy Rain
+2026-09-22,Tumkur,30.7,77.5,0.0,Partly Cloudy
+2026-09-22,Hassan,28.3,47.4,0.0,Partly Cloudy
+2026-09-22,Mangalore,20.6,82.8,0.0,Cloudy
+2026-09-22,Raichur,33.0,87.6,0.0,Clear
+2026-09-22,Gulbarga,23.5,68.1,0.0,Cloudy
+2026-09-22,Bellary,28.1,74.7,0.0,Cloudy
+2026-09-22,Bijapur,23.9,62.3,0.0,Cloudy
+2026-09-22,Dharwad,34.2,71.4,13.2,Heavy Rain
+2026-09-22,Karwar,21.1,46.5,0.0,Cloudy
+2026-09-23,Bangalore (Yeshwanthpur),28.4,76.2,15.1,Heavy Rain
+2026-09-23,Hubli,25.6,58.2,4.3,Light Rain
+2026-09-23,Mysore,26.8,51.7,0.0,Cloudy
+2026-09-23,Belgaum,25.8,63.4,19.8,Light Rain
+2026-09-23,Davangere,34.3,54.2,0.0,Clear
+2026-09-23,Shimoga,34.9,58.8,0.0,Cloudy
+2026-09-23,Tumkur,32.8,81.6,0.0,Partly Cloudy
+2026-09-23,Hassan,37.6,42.6,48.4,Heavy Rain
+2026-09-23,Mangalore,30.9,66.0,0.0,Clear
+2026-09-23,Raichur,21.9,69.9,0.0,Cloudy
+2026-09-23,Gulbarga,28.4,78.1,21.3,Heavy Rain
+2026-09-23,Bellary,35.6,58.3,0.0,Cloudy
+2026-09-23,Bijapur,29.0,63.9,0.0,Cloudy
+2026-09-23,Dharwad,21.2,57.7,28.3,Heavy Rain
+2026-09-23,Karwar,32.7,83.7,0.0,Partly Cloudy
+2026-09-24,Bangalore (Yeshwanthpur),29.5,78.0,10.3,Light Rain
+2026-09-24,Hubli,34.3,52.7,0.0,Cloudy
+2026-09-24,Mysore,36.7,77.4,12.7,Heavy Rain
+2026-09-24,Belgaum,32.6,44.2,0.0,Partly Cloudy
+2026-09-24,Davangere,27.8,71.3,0.0,Cloudy
+2026-09-24,Shimoga,23.7,48.0,43.4,Heavy Rain
+2026-09-24,Tumkur,23.1,51.9,0.0,Partly Cloudy
+2026-09-24,Hassan,24.9,85.8,0.0,Clear
+2026-09-24,Mangalore,28.8,62.8,0.0,Clear
+2026-09-24,Raichur,36.4,76.3,0.0,Cloudy
+2026-09-24,Gulbarga,35.2,67.5,42.7,Heavy Rain
+2026-09-24,Bellary,32.3,85.2,35.6,Heavy Rain
+2026-09-24,Bijapur,25.3,43.8,0.0,Clear
+2026-09-24,Dharwad,26.5,75.0,30.2,Heavy Rain
+2026-09-24,Karwar,28.4,58.4,0.0,Cloudy
+2026-09-25,Bangalore (Yeshwanthpur),32.6,54.0,32.7,Light Rain
+2026-09-25,Hubli,26.0,63.1,40.3,Light Rain
+2026-09-25,Mysore,31.2,60.8,13.7,Heavy Rain
+2026-09-25,Belgaum,33.1,61.4,18.1,Light Rain
+2026-09-25,Davangere,34.7,76.4,0.0,Clear
+2026-09-25,Shimoga,32.5,72.4,0.0,Clear
+2026-09-25,Tumkur,26.3,87.9,24.1,Light Rain
+2026-09-25,Hassan,21.5,68.3,10.9,Heavy Rain
+2026-09-25,Mangalore,33.2,42.3,33.8,Light Rain
+2026-09-25,Raichur,23.7,41.9,0.0,Partly Cloudy
+2026-09-25,Gulbarga,24.3,77.9,40.7,Light Rain
+2026-09-25,Bellary,31.8,40.6,44.1,Light Rain
+2026-09-25,Bijapur,33.3,49.5,0.0,Cloudy
+2026-09-25,Dharwad,34.9,67.9,45.3,Heavy Rain
+2026-09-25,Karwar,36.1,62.1,0.0,Partly Cloudy

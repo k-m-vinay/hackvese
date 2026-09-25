@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarvestLink - Post-Harvest Market Decision Support System</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fa-solid fa-wheat-awn"></i> HarvestLink
+            </div>
+            <div class="tagline">Post-Harvest Market Decision Support System</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Farmer Input Form -->
+        <section class="card input-section" id="input-section">
+            <h2 class="section-title">Find the Best Market for Your Harvest</h2>
+            <form id="recommendation-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="crop">Crop</label>
+                        <select id="crop" name="crop" required>
+                            <option value="">Select a crop...</option>
+                            <option value="Tomato">Tomato</option>
+                            <option value="Onion">Onion</option>
+                            <option value="Potato">Potato</option>
+                            <option value="Banana">Banana</option>
+                            <option value="Mango">Mango</option>
+                            <option value="Rice">Rice</option>
+                            <option value="Wheat">Wheat</option>
+                            <option value="Chilli">Chilli</option>
+                            <option value="Coconut">Coconut</option>
+                            <option value="Brinjal">Brinjal</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity_kg">Quantity (kg): <span id="qty-val">1000</span></label>
+                        <input type="range" id="quantity_slider" min="100" max="10000" step="100" value="1000">
+                        <input type="number" id="quantity_kg" name="quantity_kg" min="100" max="10000" value="1000" style="display:none;">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Quality Grade</label>
+                        <div class="radio-group">
+                            <label class="radio-card">
+                                <input type="radio" name="quality" value="A" checked>
+                                <span class="radio-content">
+                                    <span class="grade">Grade A</span>
+                                    <span class="desc">Premium, clean, no damage</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="quality" value="B">
+                                <span class="radio-content">
+                                    <span class="grade">Grade B</span>
+                                    <span class="desc">Average, minor defects</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="quality" value="C">
+                                <span class="radio-content">
+                                    <span class="grade">Grade C</span>
+                                    <span class="desc">Lower quality, some damage</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="harvest_date">Harvest Date</label>
+                        <input type="date" id="harvest_date" name="harvest_date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Your Location</label>
+                        <select id="location" name="location" required>
+                            <option value="12.9716,77.5946">Bengaluru</option>
+                            <option value="12.2958,76.6394">Mysuru</option>
+                            <option value="13.3409,74.7421">Udupi</option>
+                            <option value="15.3647,75.1240">Hubli</option>
+                            <option value="15.8497,74.4977">Belagavi</option>
+                            <option value="custom">Custom (Lat/Lon)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group custom-location" style="display:none;">
+                        <label for="lat">Latitude</label>
+                        <input type="number" id="lat" name="farmer_lat" step="0.0001" value="12.9716">
+                    </div>
+                    <div class="form-group custom-location" style="display:none;">
+                        <label for="lon">Longitude</label>
+                        <input type="number" id="lon" name="farmer_lon" step="0.0001" value="77.5946">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="temperature">Current Temperature (°C)</label>
+                        <input type="number" id="temperature" name="temperature" value="28" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="humidity">Current Humidity (%)</label>
+                        <input type="number" id="humidity" name="humidity" value="65" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary btn-large">
+                    <i class="fas fa-search"></i> Find Best Market
+                </button>
+            </form>
+        </section>
+
+        <!-- Loading Spinner -->
+        <div class="loading-overlay" id="loading">
+            <div class="spinner"></div>
+            <p>Analyzing markets, transport costs, and spoilage risks...</p>
+        </div>
+
+        <!-- Results Dashboard -->
+        <section class="results-section hidden" id="results">
+            <!-- Hero Card -->
+            <div class="hero-card fade-in">
+                <div class="hero-header">
+                    <h2>Recommendation</h2>
+                </div>
+                <div class="hero-body">
+                    <div class="hero-main">
+                        <h3>SELL AT <span id="rec-market" class="highlight">Market Name</span></h3>
+                        <div class="net-realization">
+                            <span class="label">Expected Net Realization</span>
+                            <span class="value" id="rec-net">₹0</span>
+                        </div>
+                        <div class="action-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>When: <strong id="rec-when">Today</strong></span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-truck"></i>
+                                <span>How: <strong id="rec-how">Direct Sale</strong></span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Risk: <span id="rec-risk" class="badge">Low</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-side">
+                        <div class="confidence-meter-container">
+                            <div class="confidence-label">Confidence Score: <span id="conf-val">High</span></div>
+                            <div class="confidence-meter">
+                                <div class="confidence-fill" id="conf-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="explanation-panel">
+                            <h4>Why this market?</h4>
+                            <ul id="rec-why" class="why-list">
+                                <li>Highest net realization</li>
+                                <li>Low transport cost</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="charts-grid fade-in">
+                <div class="card chart-card">
+                    <h3>Top 5 Markets - Net Realization</h3>
+                    <div class="chart-container">
+                        <canvas id="barChart"></canvas>
+                    </div>
+                </div>
+                <div class="card chart-card">
+                    <h3>Cost Breakdown (Recommended Market)</h3>
+                    <div class="chart-container">
+                        <canvas id="doughnutChart"></canvas>
+                    </div>
+                </div>
+                <div class="card chart-card">
+                    <h3>Price Trend</h3>
+                    <div class="chart-container">
+                        <canvas id="lineChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calculation Breakdown -->
+            <div class="card calculation-card fade-in">
+                <div class="calc-header" id="calc-toggle">
+                    <h3><i class="fas fa-calculator"></i> Calculation Breakdown</h3>
+                    <i class="fas fa-chevron-down" id="calc-icon"></i>
+                </div>
+                <div class="calc-body hidden" id="calc-body">
+                    <div class="calc-flow">
+                        <div class="step">
+                            <div class="step-title">Initial</div>
+                            <div class="step-val" id="calc-init">1000 kg</div>
+                        </div>
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="step">
+                            <div class="step-title">Quality Adj.</div>
+                            <div class="step-val" id="calc-qual">950 kg</div>
+                        </div>
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="step">
+                            <div class="step-title">Spoilage</div>
+                            <div class="step-val" id="calc-spoil">-50 kg</div>
+                        </div>
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="step">
+                            <div class="step-title">Sellable</div>
+                            <div class="step-val highlight-val" id="calc-sell">900 kg</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Market Comparison Table -->
+            <div class="card table-card fade-in">
+                <h3>Market Comparison</h3>
+                <div class="table-responsive">
+                    <table class="market-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Market</th>
+                                <th>Distance</th>
+                                <th>Price/qtl</th>
+                                <th>Transport</th>
+                                <th>Spoilage</th>
+                                <th>Sellable Qty</th>
+                                <th>Net Realization</th>
+                                <th>Risk</th>
+                            </tr>
+                        </thead>
+                        <tbody id="market-table-body">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Live Scenario Simulation & Sensitivity Analysis (PS-02 Hackathon Live Demo) -->
+            <div class="card sensitivity-card fade-in">
+                <div class="card-header-flex">
+                    <div>
+                        <h3><i class="fas fa-sliders-h"></i> Live Scenario Simulation & Sensitivity Analysis</h3>
+                        <p class="text-muted">Simulate what-if scenarios to verify how recommendations dynamically adapt to market shifts</p>
+                    </div>
+                    <span class="badge" style="background:#e8f5e9; color:#2e7d32; font-weight:600;">Interactive Demo</span>
+                </div>
+                <div class="sensitivity-grid">
+                    <div class="slider-control">
+                        <label>Transport Cost Factor: <strong id="t-mult-val">1.0x</strong></label>
+                        <input type="range" id="t_mult_slider" min="0.5" max="2.0" step="0.1" value="1.0">
+                        <span class="slider-hint">Simulate fuel hikes or FPO cooperative pooling discount</span>
+                    </div>
+                    <div class="slider-control">
+                        <label>Mandi Price Fluctuation: <strong id="p-mult-val">1.0x</strong></label>
+                        <input type="range" id="p_mult_slider" min="0.7" max="1.4" step="0.05" value="1.0">
+                        <span class="slider-hint">Simulate arrival supply surge or festive price rally</span>
+                    </div>
+                    <div class="slider-control">
+                        <label>Spoilage / Heat Stress: <strong id="s-mult-val">1.0x</strong></label>
+                        <input type="range" id="s_mult_slider" min="0.5" max="2.5" step="0.1" value="1.0">
+                        <span class="slider-hint">Simulate heatwave decay or refrigerated transport protection</span>
+                    </div>
+                </div>
+                <div style="margin-top: 15px; display: flex; gap: 10px;">
+                    <button type="button" id="btn-simulate" class="btn-primary" style="padding: 10px 20px;">
+                        <i class="fas fa-sync-alt"></i> Re-Calculate Optimal Decision
+                    </button>
+                    <button type="button" id="btn-reset-sim" class="btn-secondary" style="padding: 10px 20px; background: #e2e8f0; color: #334155; border: none; border-radius: 8px; cursor: pointer; font-weight: 500;">
+                        Reset Sliders
+                    </button>
+                </div>
+            </div>
+
+            <!-- Explainable AI & Model Transparency Panel -->
+            <div class="card xai-card fade-in">
+                <div class="card-header-flex">
+                    <div>
+                        <h3><i class="fas fa-brain"></i> Explainable AI (XAI) & Model Metrics</h3>
+                        <p class="text-muted">Rigorous econometric and post-harvest decay models evaluated on APMC Karnataka datasets</p>
+                    </div>
+                    <div class="model-badges">
+                        <span class="badge" style="background: #e3f2fd; color: #1565c0; font-weight:600;">RandomForest Price (R² = 0.965, MAE = ₹216.84)</span>
+                        <span class="badge" style="background: #fff3e0; color: #e65100; font-weight:600;">XGBoost Spoilage (R² = 0.988, MAE = 0.29%)</span>
+                    </div>
+                </div>
+                <div class="xai-grid">
+                    <div class="xai-box">
+                        <h4>Price Prediction Drivers (SHAP Value Summary)</h4>
+                        <img src="/static/images/price_shap_summary.png" alt="SHAP Price Drivers" class="xai-img">
+                        <p class="xai-caption">TreeExplainer reveals historical moving averages, seasonal sine/cosine oscillations, and arrival volume dynamics as primary determinants of mandi price.</p>
+                    </div>
+                    <div class="xai-box">
+                        <h4>Post-Harvest Spoilage Risk Factors</h4>
+                        <img src="/static/images/spoilage_feature_importance.png" alt="Spoilage Feature Importance" class="xai-img">
+                        <p class="xai-caption">Calibrated based on crop shelf-life days, elapsed post-harvest days, transit distance, and ambient temperature exceeding the crop's optimal storage threshold.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Built for Innovators Conclave 2026 | PS-02 AgriTech</p>
+            <p class="footer-tag">HarvestLink — Turning post-harvest data into actionable decisions</p>
+        </div>
+    </footer>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

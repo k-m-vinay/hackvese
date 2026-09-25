@@ -1,0 +1,5 @@
+vehicle_type,cost_per_km_per_tonne,capacity_tonnes,min_charge
+Pickup,12.0,1.5,1500
+Mini Truck,10.0,3.0,2500
+Medium Truck,6.0,9.0,5000
+Large Truck,4.0,15.0,8000

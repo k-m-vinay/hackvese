@@ -1,0 +1,79 @@
+{
+  "project": "HarvestLink PS-02 Decision Support System",
+  "trained_at": "2026-09-25 11:23:34",
+  "crops_supported": [
+    "Banana",
+    "Brinjal",
+    "Chilli",
+    "Coconut",
+    "Mango",
+    "Onion",
+    "Potato",
+    "Rice",
+    "Tomato",
+    "Wheat"
+  ],
+  "markets_supported": [
+    "Bangalore (Yeshwanthpur)",
+    "Belgaum",
+    "Bellary",
+    "Bijapur",
+    "Davangere",
+    "Dharwad",
+    "Gulbarga",
+    "Hassan",
+    "Hubli",
+    "Karwar",
+    "Mangalore",
+    "Mysore",
+    "Raichur",
+    "Shimoga",
+    "Tumkur"
+  ],
+  "price_model": {
+    "algorithm": "Random Forest Regressor (Ensemble of 120 Trees)",
+    "metrics": {
+      "mae": 216.84,
+      "rmse": 380.86,
+      "mape": 8.91,
+      "r2": 0.965,
+      "test_samples": 600,
+      "feature_importances": {
+        "rolling_avg_7": 0.9095,
+        "sin_month": 0.031,
+        "lag_14": 0.0168,
+        "lag_7": 0.0121,
+        "month": 0.0092,
+        "lag_30": 0.0078,
+        "arrivals_tonnes": 0.0038,
+        "cos_month": 0.0026,
+        "market_idx": 0.0026,
+        "crop_idx": 0.002,
+        "day_of_week": 0.0018,
+        "quarter": 0.0008
+      }
+    }
+  },
+  "spoilage_model": {
+    "algorithm": "XGBoost Regressor (Domain Physics Calibrated)",
+    "metrics": {
+      "mae_rate": 0.0029,
+      "rmse_rate": 0.0037,
+      "r2": 0.9878,
+      "test_samples": 800,
+      "feature_importances": {
+        "shelf_life_days": 0.7236,
+        "days_since_harvest": 0.1764,
+        "category_idx": 0.062,
+        "crop_idx": 0.0235,
+        "distance_km": 0.0064,
+        "temp_stress": 0.0051,
+        "temperature": 0.0025,
+        "humidity": 0.0003,
+        "humidity_stress": 0.0002,
+        "travel_time_hours": 0.0,
+        "spoilage_rate_per_day": 0.0
+      }
+    }
+  }
+}
